@@ -5,7 +5,7 @@ const cors = require("cors");
 
 //set mongodb connection
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
-const uri = "mongodb+srv://codepalousa:codepalousa@cluster0.9gn4rfd.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://username:password@cluster0.9gn4rfd.mongodb.net/?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 let collection;
 client.connect(err => {
