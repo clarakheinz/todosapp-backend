@@ -7,5 +7,5 @@ I wanted to learn how to program in REACT so I went to a cool code conference an
 Pull down this lovely little codebase, then open a terminal at your workspace location (or easily in VSCode). Use command node ./index.js and she should start running.
 
 ## Goals
-(*) Extract mongodb connection credentials to an app config
-(*) Think of cool things that are relevant here...
+* Extract mongodb connection credentials to an app config
+* Think of cool things that are relevant here...
